@@ -1,0 +1,4 @@
+<input id="number"/>
+<button id="convert-btn">Convert</button>
+<div id="output" placeholder="output"></div>
+<script src="script.js"></script>
