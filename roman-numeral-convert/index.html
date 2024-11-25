@@ -1,4 +1,72 @@
-<input id="number"/>
-<button id="convert-btn">Convert</button>
-<div id="output" placeholder="output"></div>
-<script src="script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman numeral convert</title>
+    <style>
+        body {
+            background-color: #c8eeaf;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            /* Ensure content is stacked vertically */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #number {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        #convert-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #convert-btn:hover {
+            background-color: #218838;
+        }
+
+        #output {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Please enter a number between 1-3999 to convert</h2>
+    <br><br>
+    <div class="container">
+        <input id="number" />
+        <button id="convert-btn">Convert</button>
+        <div id="output" placeholder="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
