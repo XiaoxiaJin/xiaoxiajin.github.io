@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const projects = [
       {
-        imageUrl: "./assets/pomodoro.png",
+        imageUrl: "./images/pomodoro.jpg",
         title: "Pomodoro Clock",
         keywords: "HTML, CSS, JavaScript",
         url: "https://xiaoxiajin.github.io/pomodoro-clock/index.html",
       },
       {
-        imageUrl: "./assets/project2.png",
+        imageUrl: "./images/roman-numeral-convert.jpg",
         title: "Roman numeral convert",
-        keywords: "Python, Flask, SQL",
+        keywords: "HTML, JavaScript",
         url: "https://xiaoxiajin.github.io/roman-numeral-convert/index.html",
       },
     ];
