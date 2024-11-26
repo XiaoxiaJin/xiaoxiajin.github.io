@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const projects = [
       {
-        imageUrl: "./images/pomodoro.jpg",
+        imageUrl: "./images/pomodoro.JPG",
         title: "Pomodoro Clock",
         keywords: "HTML, CSS, JavaScript",
         url: "https://xiaoxiajin.github.io/pomodoro-clock/index.html",
       },
       {
-        imageUrl: "./images/roman-numeral-convert.jpg",
+        imageUrl: "./images/roman-numeral-convert.JPG",
         title: "Roman numeral convert",
         keywords: "HTML, JavaScript",
         url: "https://xiaoxiajin.github.io/roman-numeral-convert/index.html",
