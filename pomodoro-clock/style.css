@@ -1,82 +1,108 @@
-body{
-    font-family: 'Times New Roman', sans-serif;
-    background-color: #f0f0f0;
-    display: grid;
-    border: 0cap;
-    align-items: center;
-    justify-content: center;
-    
+body {
+  font-family: "Poppins", serif;
+  background-color: #aeef96ca;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
 }
-.redColor{
-    color: darkred;
+
+.redColor {
+  color: darkred;
 }
+
+
 #clock-container {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    
-  }
-  
-  .control-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  .control-container button {
-    background-color: #ddd;
-    border: none;
-    color: #333;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin:0;
-  }
-  
-  #break-length,
-  #session-length {
-    background-color: #eee;
-    color: #333;
-    font-size: 28px;
-    padding: 10px;
-    width: 50px;
-    border-radius: 5px;
-    margin: 0 10px;
-  }
-  
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  #author{
-    font-size: 12px;
-    margin-top: 20px;
-    font-style: italic;
-  }
+  padding: 20px;
+  text-align: center;
+  width: 500px;
 
-  #timer-label {
-    font-size: 24px;
-    margin-top: 20px;
-    font-style: italic;
-  }
-  
-  #time-left {
-    font-size: 48px;
-    margin: 20px 0;
-  }
-  
-  #timer-controls button {
-    background-color: #4caf50;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-right: 10px;
-  }
-  
-  #timer-controls button:hover {
-    background-color: rgb(18, 149, 83);
-  }
+
+}
+
+
+#break-block {
+  float: left;
+  display: block;
+  width: 40%;
+}
+
+#session-block {
+  float: right;
+  display: block;
+  width: 45%;
+}
+
+.control-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-container button {
+  background-color: #ddd;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#break-length,
+#session-length {
+  background-color: #eee;
+  color: #333;
+  font-size: 28px;
+  padding: 10px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+
+#timer-label {
+  font-size: 24px;
+  margin-top: 100px;
+  font-style: italic;
+  text-align: center;
+}
+
+#time-left {
+  font-size: 48px;
+  /* margin: 20px 0; */
+  text-align: center;
+}
+
+#timer-controls button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#timer-controls button:hover {
+  background-color: rgb(18, 149, 83);
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
