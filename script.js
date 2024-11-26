@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         imageUrl: "./images/roman-numeral-convert.JPG",
         title: "Roman numeral convert",
-        keywords: "HTML, JavaScript",
+        keywords: "HTML, CSS, JavaScript",
         url: "https://xiaoxiajin.github.io/roman-numeral-convert/index.html",
       },
     ];
