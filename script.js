@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         imageUrl: "./images/employees-database.JPG",
         title: "Employees Database",
         keywords: "JavaScript, React, SQL, CSS",
-        url: "https://xiaoxiajin.github.io/employees-database",
+        url: "https://xiaoxiajin.github.io/employees-database/client/index.html",
       },
       {
         imageUrl: "./images/pomodoro.JPG",
