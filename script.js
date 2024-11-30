@@ -4,6 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const projects = [
       {
+        imageUrl: "./images/employees-database.JPG",
+        title: "Employees Database",
+        keywords: "JavaScript, React, SQL, CSS",
+        url: "https://xiaoxiajin.github.io/employees-database",
+      },
+      {
         imageUrl: "./images/pomodoro.JPG",
         title: "Pomodoro Clock",
         keywords: "HTML, CSS, JavaScript",
