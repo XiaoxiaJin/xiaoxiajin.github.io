@@ -4,6 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const projects = [
     {
+      imageUrl: "./images/angular-todo.JPG",
+      title: "Angular Todo App",
+      keywords: "Angular, HTML, CSS, JSON",
+      url: "https://xiaoxiajin.github.io/angular-todo",
+    },
+    {
       imageUrl: "./images/pomodoro.JPG",
       title: "Pomodoro Clock",
       keywords: "HTML, CSS, JavaScript",
